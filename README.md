@@ -1,16 +1,44 @@
-# React + Vite
+# SaaS Subscription Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive web dashboard built with React that helps users manage and track subscription details in one place, with interactive charts for a clear view of usage and billing data.
 
-Currently, two official plugins are available:
+## Live Demo
+https://gunasri-r.github.io/Saas-subscription-dashboard-project/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+- Responsive dashboard layout that works across desktop and mobile screens
+- Client-side routing between dashboard sections/pages
+- Reusable UI components for consistent design across the app
+- Interactive charts to visualize subscription and usage data
+- Clean, modern interface focused on usability
 
-## React Compiler
+## Tech Stack
+- React (Vite)
+- JavaScript
+- CSS
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Getting Started
 
-## Expanding the ESLint configuration
+Clone the repository and install dependencies:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+git clone https://github.com/Gunasri-R/Saas-subscription-dashboard-project.git
+cd Saas-subscription-dashboard-project
+npm install
+```
+
+Run the development server:
+
+```bash
+npm run dev
+```
+
+Build for production:
+
+```bash
+npm run build
+```
+
+## Author
+**Gunasri R**
+[GitHub](https://github.com/Gunasri-R) · [LinkedIn](https://www.linkedin.com/in/gunasri-rameshkumar-a52a74320)
